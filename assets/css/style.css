@@ -1,0 +1,30 @@
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 0.40fr 0.60fr; */
+  grid-gap: 15px;
+}
+section.grid-container img {
+  width: 100%;
+}
+
+/* .grid-container > div {
+  height: 250px;
+  background: purple;
+} */
+
+div#ds-coll-img {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+div#ds-coll-txt {
+  grid-column: 4 / 10;
+  grid-row: 1 / 2;
+}
+div#ds-dataviz-txt {
+  grid-column: 1 / 6;
+  grid-row: 2 / 3;
+}
+div#ds-dataviz-img {
+  grid-column: 6 / 10;
+  grid-row: 2 / 3;
+}
